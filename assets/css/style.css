@@ -11,7 +11,7 @@ body {
     color: #3a3a3a;
 }
 
-/* heading and logo */
+/* headings and logo */
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -56,4 +56,34 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+
+/* creates the level zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
