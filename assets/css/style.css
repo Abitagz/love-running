@@ -70,7 +70,6 @@ h1, h2 {
 
 }
 
-
 #cover-text, #cover-text h2 {
     color: #fff;
 
@@ -87,7 +86,7 @@ h1, h2 {
     animation-fill-mode: forward;
 }
 
-/* creates the level zoom for hero image */
+/* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -127,18 +126,47 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h1 {
+    text-align: right;
+}
+.right-about-heading p {
+    text-align: right;
 }
