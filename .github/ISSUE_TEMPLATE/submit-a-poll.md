@@ -1,7 +1,7 @@
 ---
 name: Submit a poll
 about: Describe this issue template's purpose here.
-title: 'User Story: <TITLE>'
+title: 'User Story:Submit a poll
 labels: ''
 assignees: ''
 
